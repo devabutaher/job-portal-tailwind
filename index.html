@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="styles.css" rel="stylesheet">
+  <title>Job Portal</title>
+</head>
+
+<body class="max-w-7xl mx-auto px-4">
+  <header class="flex flex-wrap lg:flex-row flex-col lg:items-center justify-between gap-4 py-6">
+    <div>
+      <img src="images/logo.png" alt="logo">
+    </div>
+    <nav>
+      <ul class="flex flex-col lg:flex-row lg:items-center gap-4">
+        <li><a class="text-gray-800 hover:text-blue-600 text-xl hover:underline" href="/">Home</a></li>
+        <li><a class="text-gray-800 hover:text-blue-600 text-xl hover:underline" href="/jobs">Jobs</a></li>
+        <li><a class="text-gray-800 hover:text-blue-600 text-xl hover:underline" href="/recruiters">Recruiters</a></li>
+        <li><a class="text-gray-800 hover:text-blue-600 text-xl hover:underline" href="/candidates">Candidates</a></li>
+        <li><a class="text-gray-800 hover:text-blue-600 text-xl hover:underline" href="/blogs">Blogs</a></li>
+        <li><a class="text-gray-800 hover:text-blue-600 text-xl hover:underline" href="/about">About</a></li>
+      </ul>
+    </nav>
+    <div class="space-x-4">
+      <button class="underline text-xl text-gray-800 cursor-pointer hover:text-blue-600 hover:-translate-y-1
+        duration-200">Register</button>
+      <button class="rounded-xl bg-blue-500 py-3 px-4 text-lg text-white cursor-pointer">Sign In</button>
+    </div>
+  </header>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
