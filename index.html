@@ -11,7 +11,8 @@
   <title>Job Portal</title>
 </head>
 
-<body class="max-w-7xl mx-auto px-4">
+<body class="max-w-[84rem] mx-auto px-4">
+  <!-- Header -->
   <header class="flex flex-wrap lg:flex-row flex-col lg:items-center justify-between gap-4 py-6">
     <div>
       <img src="images/logo.png" alt="logo">
@@ -33,96 +34,337 @@
     </div>
   </header>
 
-  <section class="flex flex-col lg:flex-row items-center justify-between gap-8 py-12">
-    <div class="flex-1 space-y-8">
-      <div class="w-3/4 space-y-8">
-        <h1 class="text-5xl font-bold">Get The <span class="text-blue-500">Right Job</span> You Deserve</h1>
-        <p class="text-gray-800 text-xl">
-          Each month, more than 3 million job seekers turn to website in their search for work, making over 140,000 applications
-          every single day
+  <main class="space-y-12">
+    <!-- Hero Section -->
+    <section class="flex flex-col lg:flex-row items-center justify-between gap-8">
+      <div class="flex-1 space-y-8">
+        <div class="w-3/4 space-y-8">
+          <h1 class="text-5xl font-bold">Get The <span class="text-blue-500">Right Job</span> You Deserve</h1>
+          <p class="text-gray-800 text-xl">
+            Each month, more than 3 million job seekers turn to website in their search for work, making over 140,000
+            applications
+            every single day
+          </p>
+        </div>
+        <div>
+          <p><span class="font-semibold">Popular Searches:</span>
+            <a class="underline" href="/content-writer">Content Writer,</a>
+            <a class="underline" href="/finance">Finance,</a>
+            <a class="underline" href="/human-resource">Human Resource,</a>
+            <a class="underline" href="/management">Management</a>
+          </p>
+        </div>
+      </div>
+      <div class="flex-1">
+        <img src="images/image_1.png" alt="image_1" class="w-full">
+      </div>
+    </section>
+    
+    <!-- Categories Section -->
+    <section>
+      <div class="text-center space-y-4 mb-8">
+        <h1 class="text-4xl font-bold">Browse by category</h1>
+        <p class="text-gray-600 hover:text-blue-500 text-lg">
+          Find the job that’s perfect for you. about 800+ new jobs everyday
         </p>
       </div>
-      <div>
-        <p><span class="font-semibold">Popular Searches:</span>
-          <a class="underline" href="/content-writer">Content Writer,</a>
-          <a class="underline" href="/finance">Finance,</a>
-          <a class="underline" href="/human-resource">Human Resource,</a>
-          <a class="underline" href="/management">Management</a>
+    
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-book text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Content Writer</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">3+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-money-check text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Finance</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">5+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-cart-shopping text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Retail & Products</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">7+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-arrow-trend-up text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Marketing & Sale</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">3+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-shop text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Market Research</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">7+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-people-roof text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Management</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">8+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-user text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Human Resource</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">2+ Jobs Available</p>
+          </div>
+        </div>
+        <div
+          class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
+          <i class="fa-solid fa-laptop text-blue-500 text-4xl"></i>
+          <div class="flex flex-col justify-center gap-1">
+            <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Software</h2>
+            <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">4+ Jobs Available</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Jobs Cards -->
+    <section>
+      <div class="text-center space-y-4 mb-8">
+        <h1 class="text-4xl font-bold">Jobs of the day</h1>
+        <p class="text-gray-600 hover:text-blue-500 text-lg">
+          Search and connect with the right candidates faster
         </p>
       </div>
-    </div>
-    <div class="flex-1">
-      <img src="images/image_1.png" alt="image_1" class="w-full">
-    </div>
-  </section>
+    
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
 
-  <section class="py-12">
-    <div class="text-center space-y-4 mb-8">
-      <h1 class="text-4xl font-bold">Browse by category</h1>
-      <p class="text-gray-600 hover:text-blue-500 text-lg">
-        Find the job that’s perfect for you. about 800+ new jobs everyday
-      </p>
-    </div>
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
 
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-book text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Content Writer</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">3+ Jobs Available</p>
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 space-y-5 bg-[#f8faff]">
+          <div class="flex gap-4 items-center">
+            <img src="images/image_2.png" alt="company logo" class="w-12">
+            <div class="space-y-1">
+              <h3 class="font-semibold text-xl">Car Toys</h3>
+              <p class="text-gray-400"><i class="fa-solid fa-location-dot"></i> Denmark</p>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold">Figma Designer</h3>
+            <div class="flex gap-4 text-sm text-gray-500">
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-briefcase"></i>Full Time</p>
+              <p class="flex gap-1 items-center"><i class="fa-solid fa-clock"></i>Posted 2 years ago</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores cupiditate molestiae voluptates deserunt sit at.</p>
+          <div class="flex gap-2">
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">App</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Figma</p>
+            <p class="bg-gray-200 text-gray-500 px-2 py-1 text-sm">Design</p>
+          </div>
+          <div class="flex items-center gap-2 justify-between">
+            <p class="text-blue-500 font-medium text-xl">$5000 <span class="text-sm text-gray-500 font-normal">/month</span></p>
+            <button class="py-2 px-4 font-medium hover:bg-blue-500 bg-gray-200 rounded-md transition-all duration-200 hover:text-white cursor-pointer text-blue-500">Apply Now</button>
+          </div>
         </div>
       </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-money-check text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Finance</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">5+ Jobs Available</p>
-        </div>
-      </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-cart-shopping text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Retail & Products</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">7+ Jobs Available</p>
-        </div>
-      </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-arrow-trend-up text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Marketing & Sale</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">3+ Jobs Available</p>
-        </div>
-      </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-shop text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Market Research</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">7+ Jobs Available</p>
-        </div>
-      </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-people-roof text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Management</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">8+ Jobs Available</p>
-        </div>
-      </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-user text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Human Resource</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">2+ Jobs Available</p>
-        </div>
-      </div>
-      <div class="p-6 rounded-lg cursor-pointer border border-gray-200 hover:border-gray-300 transition-all hover:shadow-xl duration-200 flex items-center gap-4">
-        <i class="fa-solid fa-laptop text-blue-500 text-4xl"></i>
-        <div class="flex flex-col justify-center gap-1">
-          <h2 class="font-semibold text-lg hover:text-blue-500 whitespace-nowrap">Software</h2>
-          <p class="text-gray-600 hover:text-blue-500 whitespace-nowrap">4+ Jobs Available</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <script type="module" src="/src/main.js"></script>
 </body>
